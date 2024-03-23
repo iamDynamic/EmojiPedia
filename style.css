@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+section{
+    display: flex;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+div{
+    border: solid #2a9d8f;
+    background-color: #264653;
+    color: #fff;
+    padding: 10px;
+}
+nav{
+    background-attachment: fixed;
+    text-align: center;
+    padding: 30px;
+    background-color: #264653;
+    color: #fff;
+}
+aside {
+    display: grid;
+    background-color: #2a9d8f;
+    /* width: 200px; normal */
+    width: 50px;
+    overflow: hidden;
+    height:100vh;
+    color: #fff
+}
+aside:hover{
+    width: 200px;
+}
+aside h1{
+    padding: 20px;
+    text-align: center;
+}
+aside p{
+    text-transform: capitalize;
+    text-align: center;
+}
+aside button{
+    background-color: #264653;
+    border: solid #264653;
+    color: #fff;
+    text-transform: capitalize;
+}
+aside button:hover{
+    background: transparent;
+}
+aside .copy1{
+
+    margin-top: 20px;
+    padding: 10px;
+}
+aside .copy1 a{
+    text-decoration: none;
+    color: #ededed;
+}
+article{
+          margin-top: 20px;
+          display: grid;
+          margin-left: 200px;
+          justify-content: center;
+          align-items: center;
+          grid-template-columns: repeat(5,1fr);
+}
